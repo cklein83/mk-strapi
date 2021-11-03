@@ -1,0 +1,11 @@
+
+---
+distFolder: out
+setup:
+- name: Setup project
+  action: actions/setup-node@v1
+  properties:
+    node-version: v12.22.3
+build:
+  name: Build project
+  command: npm run build
